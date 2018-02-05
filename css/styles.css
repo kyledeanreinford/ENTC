@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 16px;
-	font-family: Futura, Georgia, sans-serif;
+	font-family: Georgia, sans-serif;
 	vertical-align: baseline;
 }
 /* remember to define focus styles! */
@@ -75,17 +75,25 @@ nav {
 h1 {
   font-size: 2em;
   color: rgba(205, 212, 216, 1);
+	font-family: Futura;
 }
 
 h2 {
+	font-size: 1.75em;
+	color: #333;
+}
+
+h3 {
 	font-size: 1.25em;
 	color: rgba(205, 212, 216, 1);
+	font-family: Futura;
 }
+
 
 #runner {
 	width: 100%;
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	top: 0px;
 }
 
@@ -105,6 +113,26 @@ h2 {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#info {
+	position: relative;
+	top: 20px;
+	text-align: center;
+	width: 75%;
+	margin: 20px auto;
+	line-height: 1.5;
+	color: #333;
+}
+
+.info {
+	margin-top: 20px;
+	font-size: 1.1em;
+}
+
+#map {
+	margin-top: 30px;
+	width: 100%;
 }
 
 /* color palette
