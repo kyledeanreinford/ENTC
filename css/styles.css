@@ -127,8 +127,9 @@ h3 {
 }
 
 .info {
-	margin-top: 20px;
+	margin: 20px auto;
 	font-size: 1.1em;
+	width: 95%;
 }
 
 #map {
