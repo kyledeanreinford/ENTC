@@ -47,11 +47,18 @@ blockquote, q {
 
 nav {
   text-align: center;
-	padding: 20px 0;
+	padding: 20px 0 10px;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 	width: 100%;
+	transition: 1s ease;
+	color: rgba(205, 212, 216, 1);
+}
+
+.navOnScroll {
+	color: #666;
+	background-color: rgba(255, 255, 255, .9);
 }
 
 #navLeft {
@@ -68,13 +75,8 @@ nav {
 	padding-right: 20px;
 }
 
-.navOnScroll {
-	background-color: rgba(94, 118, 131, .5);
-}
-
 h1 {
   font-size: 2em;
-  color: rgba(205, 212, 216, 1);
 	font-family: Futura;
 }
 
@@ -85,7 +87,6 @@ h2 {
 
 h3 {
 	font-size: 1.25em;
-	color: rgba(205, 212, 216, 1);
 	font-family: Futura;
 }
 
@@ -119,7 +120,7 @@ h3 {
 	position: relative;
 	top: 20px;
 	text-align: center;
-	width: 75%;
+	width: 100%;
 	margin: 20px auto;
 	line-height: 1.5;
 	color: #333;
@@ -133,6 +134,45 @@ h3 {
 #map {
 	margin-top: 30px;
 	width: 100%;
+}
+
+#strava {
+	margin: 20px 0;
+}
+
+#newsletter {
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 50px 0 30px;
+}
+
+#footerLeft {
+	float: left;
+	width: 33%;
+	height: 200px;
+	margin-top: 50px;
+}
+
+#footerRight {
+	float: right;
+	width: 33%;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#endFooter {
+	float: left;
+	width: 33%;
+	height: 200px;
+	margin-top: 20px;
+}
+
+.mc_embed_signup {
+	text-align: center;
+	font-size: 20px;
 }
 
 /* color palette
